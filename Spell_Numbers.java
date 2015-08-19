@@ -2,7 +2,6 @@
 /**
  * The Spell_Numbers class takes in a number in a int variable and returns 
  * that number spelled out in word form. Example (45: forty five, 1200: one thousand two hundred). 
- *Joanna
  */
 
 public class Spell_Numbers {
