@@ -1,7 +1,7 @@
 
 /**
  * The Spell_Numbers class takes in a number in a int variable and returns 
- * that number spelled out in word form. 
+ * that number spelled out in word form. Example (45: forty five, 1200: one thousand two hundred). 
  */
 
 public class Spell_Numbers {
@@ -31,14 +31,14 @@ public class Spell_Numbers {
        temp = 0; //Equals variable Numbers and used to short digits into 
                  //an array.
        jump = 0; //Used to skip ones, thousands, and millions place
-                 //..0.000000000000if number has a one in the tens, ten thousands, and 
+                 //if number has a one in the tens, ten thousands, and 
                  //ten millions place.
     }
 
 /**
- * Spells out the inputed number into word form.
+ * Spells out the imputed number into word form.
  * Variable Numbers is the number to be spelled out
- * @parma Numbers is the inputed number to be spelled out.
+ * @parma Numbers is the imputed number to be spelled out.
  */
     
     public void Number_Spell(int Numbers) {
@@ -48,7 +48,7 @@ public class Spell_Numbers {
         if (Numbers == 0) {
             System.out.print("Zero"); }
                      
-        //Figures out how many digits are in the number to initilzes the 
+        //Figures out how many digits are in the number to initializes the 
         //array used to store each digit of the number.
         while (Numbers > 0) {            
             Numbers = (Numbers / 10);
@@ -195,7 +195,7 @@ public class Spell_Numbers {
             }
             //Determines the value of the ones, Hundreds, thousands,
             //Hundred thousands, millions, Hundred millions, and billions
-            //place and then pritns that value to the screen. 
+            //place and then prints that value to the screen. 
             //Also has conditions to figure out if the Hundred 
             //thousands and Hundred millions place has a full number in it,
             //(Example: 200,300,400...).
