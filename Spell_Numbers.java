@@ -13,7 +13,7 @@ public class Spell_Numbers {
     private int jump;
     
 /**
- * Initilzes variables used within the Number_Spell method.
+ * Initializes variables used within the Number_Spell method.
  */    
     
     public Spell_Numbers() {
